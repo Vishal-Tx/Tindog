@@ -1,0 +1,164 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white
+}
+
+.bold-font{
+  font-weight: 900;
+}
+
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7% ;
+  text-align: left;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+
+
+/* download-buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+  transform: rotate(25deg);
+  width: 75%;
+  height: auto;
+  
+}
+
+@media screen and (min-width:1043px) {
+  .title-image{
+    width: 70%;
+  }
+  .coloured-section{
+    max-height: 700px;
+  }
+}
+.row{
+  position: relative;
+}
+
+
+
+/* features */
+#features {
+  position: relative;
+}
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 50px;
+}
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.card {
+  height: 100%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* Footer */
+
+#footer {
+  margin-top: 50px;
+}
+.footer-icon {
+  margin: 5px 10px 10px 10px;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: rgba(99, 96, 96, 0.945);
+}
+
+@media (max-width: 1037px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    margin-left: 5%;
+  }
+  .title-image {
+    transform: rotate(0);
+  }
+}
